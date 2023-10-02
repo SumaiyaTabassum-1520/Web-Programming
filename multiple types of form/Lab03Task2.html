@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task2</title>
+    <style>
+        table {
+
+            border: 2px solid black;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: rgb(130, 139, 238);
+            color: white;
+            width: 60%;
+        }
+
+        th,
+        td {
+            padding: 10px 10px 10px 10px;
+        }
+
+        input,
+        select {
+            padding: 7px 7px 7px 7px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <table>
+        <form name="fome1" method="get">
+            <tr style="background-color: white">
+                <td colspan="5">
+                    <h2 style="text-align: center;color:rgb(130, 139, 238)"><u>STUDENT REGISTRATION FORM</u></h2>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align: right">First Name : </td>
+                <td><input type="text" name="fname" maxlength="30"></td>
+            </tr>
+            <tr>
+                <td style="text-align: right">last Name : </td>
+                <td> <input type="text" name="lname" maxlength="30"></td>
+            </tr>
+            <tr>
+                <td style="text-align: right">Date of birth : </td>
+                <td><select name="day">
+                        <option value="day">Day</option>
+                        <option value="day">1</option>
+                        <option value="day">2</option>
+                        <option value="day">3</option>
+                        <option value="day">4</option>
+                        <option value="day">5</option>
+                        <option value="day">6</option>
+                        <option value="day">7</option>
+                        <option value="day">8</option>
+                        <option value="day">9</option>
+                        <option value="day">10</option>
+                        <option value="day">11</option>
+                        <option value="day">12</option>
+                        <option value="day">13</option>
+                        <option value="day">14</option>
+                        <option value="day">15</option>
+                        <option value="day">16</option>
+                        <option value="day">17</option>
+                        <option value="day">18</option>
+                        <option value="day">19</option>
+                        <option value="day">20</option>
+                        <option value="day">21</option>
+                        <option value="day">22</option>
+                        <option value="day">23</option>
+                        <option value="day">24</option>
+                        <option value="day">25</option>
+                        <option value="day">26</option>
+                        <option value="day">27</option>
+                        <option value="day">28</option>
+                        <option value="day">29</option>
+                        <option value="day">30</option>
+                        <option value="day">31</option>
+                    </select>
+                    <select name="month">
+                        <option value="month">Month</option>
+                        <option value="month">january</option>
+                        <option value="month">february</option>
+                        <option value="month">march</option>
+                        <option value="month">april</option>
+                        <option value="month">may</option>
+                        <option value="month">june</option>
+                        <option value="month">july</option>
+                        <option value="month">august</option>
+                        <option value="month">september</option>
+                        <option value="month">october</option>
+                        <option value="month">november</option>
+                        <option value="month">december</option>
+                    </select>
+                    <select name="year">
+                        <option value="year">Year</option>
+                        <option value="year">1981</option>
+                        <option value="year">1982</option>
+                        <option value="year">1983</option>
+                        <option value="year">1984</option>
+                        <option value="year">1985</option>
+                        <option value="year">1986</option>
+                        <option value="year">1987</option>
+                        <option value="year">1988</option>
+                        <option value="year">1989</option>
+                        <option value="year">1990</option>
+                        <option value="year">1991</option>
+                        <option value="year">1992</option>
+                        <option value="year">1993</option>
+                        <option value="year">1994</option>
+                        <option value="year">1995</option>
+                        <option value="year">1996</option>
+                        <option value="year">1997</option>
+                        <option value="year">1998</option>
+                        <option value="year">1999</option>
+                        <option value="year">2000</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align: right">Email:</td>
+                <td><input type="email" name="femail"></td>
+            </tr>
+            <tr>
+                <td style="text-align: right">Phone:</td>
+                <td><input type="number" name="phn" maxlength="10"></td>
+            </tr>
+            <tr>
+                <td style="text-align: right">Gender:</td>
+                <td><input type="radio" name="choice" value="male">Male
+                    <input type="radio" name="choice" value="male">Female
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align: right">Adress</td>
+                <td><textarea cols=50 rows=5 name="text"></textarea></td>
+            </tr>
+            <tr>
+                <td style="text-align: right">City : </td>
+                <td> <input type="text" name="state" maxlength="30"></td>
+            </tr>
+            <tr>
+                <td style="text-align: right">Pin Code:</td>
+                <td><input type="number" name="pcode" maxlength="6"></td>
+            </tr>
+            <tr>
+                <td style="text-align: right">State : </td>
+                <td> <input type="text" name="state" maxlength="30"></td>
+            </tr>
+            <tr>
+                <td style="text-align: right">Country:</td>
+                <td> <select name="list">
+                        <option value="comilla">India</option>
+                        <option value="dhaka">Bangladesh</option>
+                        <option value="Chittagong">Nepal</option>
+                    </select></td>
+            </tr>
+            <tr>
+                <td style="text-align: right">Hobbies : </td>
+                <td>Drawing<input type="checkbox" name="check">
+                    Singing<input type="checkbox" name="check">
+                    Sketching<input type="checkbox" name="check"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Others<input type="checkbox" name="check">
+                    <textarea cols=10 rows=1 name="text"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align: right">Qualification:
+                <td>
+                    <table style="border-collapse: collapse; border: none">
+                        <td>SI.No.</td>
+                        <td>Examination</td>
+                        <td>Board</td>
+                        <td>Percentage</td>
+                        <td>Year Passing</td>
+                        <tr>
+                            <td>1</td>
+                            <td>Class X</td>
+                            <td style="background-color: white;border: 2px solid rgb(130, 139, 238)"></td>
+                            <td style="background-color: white;border: 2px solid rgb(130, 139, 238)"></td>
+                            <td style="background-color: white;border: 2px solid rgb(130, 139, 238)"></td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Class XII</td>
+                            <td style="background-color: white;border: 2px solid rgb(130, 139, 238)"></td>
+                            <td style="background-color: white;border: 2px solid rgb(130, 139, 238)"></td>
+                            <td style="background-color: white;border: 2px solid rgb(130, 139, 238)"></td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Graduation</td>
+                            <td style="background-color: white;border: 2px solid rgb(130, 139, 238)"></td>
+                            <td style="background-color: white;border: 2px solid rgb(130, 139, 238)"></td>
+                            <td style="background-color: white;border: 2px solid rgb(130, 139, 238)"></td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Masters</td>
+                            <td style="background-color: white;border: 2px solid rgb(130, 139, 238)"></td>
+                            <td style="background-color: white;border: 2px solid rgb(130, 139, 238)"></td>
+                            <td style="background-color: white;border: 2px solid rgb(130, 139, 238)"></td>
+                        </tr>
+
+            </tr>
+    </table>
+    </td>
+    <tr>
+        <td style="text-align: right">Courses<br>Apllied For:</td>
+        <td>BCA<input type="radio" name="choice" value="BCA">
+            B.Com<input type="radio" name="choice" value="BCA">
+            B.Sc<input type="radio" name="choice" value="BCA">
+            B.A<input type="radio" name="choice" value="BCA"></td>
+    </tr>
+    <tr>
+        <td colspan="5" style="text-align: center">
+            <input style="border-radius:5px;border: white;" type="Submit" value="Submit" id="button">
+            <input style="border-radius:5px;border: white;" type="Reset" value="Reset" id="button2">
+        </td>
+    </tr>
+
+</body>
+
+</html>

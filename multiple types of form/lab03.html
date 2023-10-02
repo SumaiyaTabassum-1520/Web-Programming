@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form_Ready</title>
+    <style>
+        table {
+          
+            border: 1px solid;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        th,td{
+            padding: 10px 10px 10px 10px;
+        }
+        
+       
+    </style>
+</head>
+
+<body>
+   
+    <table>
+        <form name="fome1" method="get">
+            <tr><td colspan="2"><h1 style="text-align: left">Registration Form</h1></td></tr>
+            <tr>
+                <td style="text-align: right">User Id:</td>
+                <td><input type="text" name="fuserid" maxlength="12"></td>
+            </tr>
+            <tr>
+                <td style="text-align: right">Password:</td>
+                <td><input type="password" name="fpassword" value="" maxlength="12"></td>
+            </tr>
+            <tr>
+                <td style="text-align: right">Name:</td> 
+                <td><input type="text" name="fname" maxlength="25"></td>
+            </tr>
+            <tr>
+                <td style="text-align: right">Select Country:</td>
+                <td> <select name="list">
+                    <option value="Bangladesh">Bangladesh</option>
+                    <option value="India">India</option>
+                    <option value="Nepal">Nepal</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td style="text-align: right">Zip Code:</td>
+                <td><input type="number" name="zcode" maxlength="5"></td>
+            </tr>
+            <tr>
+                <td style="text-align: right">Email:</td>
+                <td><input type="email" name="femail"></td>
+            </tr>
+            <tr>
+                <td style="text-align: right">Sex:</td> 
+                    <td><input type="radio" name="choice" value="male">Male
+                    <input type="radio" name="choice" value="male">Female</td>
+            </tr>
+            <tr>
+                <td style="text-align: right">Language:</td>
+                <td><input type="checkbox" name="check">English
+                    <input type="checkbox" name="check1">Non English</td>
+            </tr>
+            <tr>
+                <td style="text-align: right">About:</td>
+                 <td><textarea cols=40 rows=10 name="text"></textarea></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td style="text-align: center"><input type="button" value="Submit">
+            </tr>
+            
+        </form>
+    </table>
+</body>
+
+</html>
